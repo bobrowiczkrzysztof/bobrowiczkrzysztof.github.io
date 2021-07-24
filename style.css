@@ -385,8 +385,8 @@ h2 {
     font-size: 20px;
   }
 
-  .hero-area {
-    height: 100vh;
+  div.hero-area {
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -415,5 +415,9 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .hero {
+    height: 100vh;
   }
 }
