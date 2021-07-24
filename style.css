@@ -386,7 +386,7 @@ h2 {
   }
 
   .hero-area {
-    height: 50vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -408,7 +408,7 @@ h2 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    top: 50%;
+    top: 70%;
   }
   a.social {
     padding: 0 15px 0 15px;
