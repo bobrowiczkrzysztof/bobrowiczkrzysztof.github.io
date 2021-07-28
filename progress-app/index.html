@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progress Steps</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+      </div>
+      <div class="buttons">
+        <button class="btn" id="prev" disabled>Prev</button>
+        <button class="btn" id="next">Next</button>
+      </div>
+      <button class="btn" id="process">Process</button>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: 'AIzaSyCB-FW5TQcdj7fgfQbvpkWPqZ-idKvDTrM',
+        authDomain: 'progress-steps-399bd.firebaseapp.com',
+        projectId: 'progress-steps-399bd',
+        storageBucket: 'progress-steps-399bd.appspot.com',
+        messagingSenderId: '477747952107',
+        appId: '1:477747952107:web:0f414ee5b51d58cb4ac1ae',
+        measurementId: 'G-YD2H1JW2M6',
+      }
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig)
+      firebase.analytics()
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
