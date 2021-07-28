@@ -130,7 +130,7 @@ h2 {
   align-items: center;
 }
 .profile-pic {
-  object-fit: contain;
+  object-fit: cover;
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -162,9 +162,10 @@ h2 {
 }
 
 .project-image {
+  border-radius: 3px;
   object-fit: contain;
   width: 400px;
-  height: 250px;
+  height: 300px;
   /* border-radius: 50%; */
   background: transparent no-repeat center;
   background-size: cover;
